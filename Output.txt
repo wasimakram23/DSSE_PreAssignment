@@ -1,0 +1,9 @@
+Note:Could not get the output because of slow mobile data in pre assesment lab. Complete the code in home by cloning the repo in local machine
+Output:
+
+Total unique commits: 169
+Total unique files changed: 603
+Average number of unique file changed :3.57
+Total dmm_unit_size: 65.22   Average dmm_unit_size:0.39
+Total dmm_unit_complexity: 65.22   Average dmm_unit_complexity:0.45
+Total dmm_unit_interfacing: 65.22   Average dmm_unit_interfacing:0.58
