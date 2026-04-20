@@ -1,8 +1,8 @@
 from pydriller import Repository
 
 issue_ids = ["CAMEL-180", "CAMEL-321", "CAMEL-1818", "CAMEL-3214", "CAMEL-18065"]
-#repo_path = "https://github.com/apache/camel"
-repo_path = "D:/WorkSpace/Python/camel"
+repo_path = "https://github.com/apache/camel"
+#repo_path = "D:/WorkSpace/Python/camel"
 
 unique_commits = set()
 unique_files = set()
@@ -39,3 +39,13 @@ print(f"Average number of unique file changed :{total_unique_files/total_unique_
 print(f"Total dmm_unit_size: {total_unit_size:.2f}   Average dmm_unit_size:{total_unit_size/total_unique_commits:.2f}" )
 print(f"Total dmm_unit_complexity: {total_unit_size:.2f}   Average dmm_unit_complexity:{total_unit_complexity/total_unique_commits:.2f}")
 print(f"Total dmm_unit_interfacing: {total_unit_size:.2f}   Average dmm_unit_interfacing:{total_unit_interfacing/total_unique_commits:.2f}")
+
+# Output
+#Total unique commits: 169
+#Total unique files changed: 603
+#Average number of unique file changed :3.57
+#Total dmm_unit_size: 65.22   Average dmm_unit_size:0.39
+#Total dmm_unit_complexity: 65.22   Average dmm_unit_complexity:0.45
+#Total dmm_unit_interfacing: 65.22   Average dmm_unit_interfacing:0.58
+
+# Github repo link: https://github.com/wasimakram23/DSSE_PreAssignment
